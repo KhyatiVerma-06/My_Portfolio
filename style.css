@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Bree Serif", serif;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(25, 24, 24);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+nav ul li a:hover {
+    color: rgb(215, 178, 250);
+    font-size: 1.4rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: -15px 136px;
+}
+
+.left {
+    font-size: 28px;
+    text-align: left;
+    margin-right: 80px;
+}
+
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 30px;
+    margin-right: 760px;
+}
+
+
+.purple {
+    color: rgb(215, 178, 250);
+}
+
+#element {
+    color: rgb(215, 178, 250);
+}
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    /* height: 80vh; */
+}
+
+.thirdSection div {
+    color: gainsboro;
+    font-size: 30px;
+}
+
+.about{
+    width:1100px;
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+    
+}
+#ab{
+    padding-top: 30px;
+}
+.apara{
+    margin: 1px;
+    font-size: 18px;
+    color: white;
+}
+.thirdSection img{
+    height: 200px;
+}
+
+#skill{
+    margin-top: 50px;
+    margin-left: 10px;
+    display: flex;
+    color: white;
+    font-size: 26px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.sk{
+    padding: 0px 130px;
+    margin: 0 20px;
+}
+
+#skil{
+    margin-left: 52px;
+    display: flex;
+    font-size: 15px;
+}
+.skilss{
+    padding: 5px;
+    margin-left: 345px;
+}
+.skil{
+    padding: 0 130px;
+    margin: 0px 23px;
+}
+
+.skils{
+    padding: 5px;
+    margin-left: 100px;
+}
+
+#skil div a{
+    color:rgb(215, 178, 250);
+    
+}
+
+#container{
+    margin: 34px;
+    display: flex;
+}
+
+#container .box{
+    width: 160px;
+    border: 4px solid rgb(215, 178, 250);
+    padding: 30px;
+    margin: 40px 84px 0px 120px;
+    border-radius: 18px;
+    background-color: rgb(234, 223, 244);
+}
+
+#container .box img{
+    height: 170px;
+    margin: auto;
+    display: block;
+}
+
+#information{
+    margin-top: 0px;
+    display: flex;
+}
+
+#information .info{
+    font-size: 23px;
+    color: rgb(215, 178, 250);
+    width: 173px;
+    padding: 0px 34px 0px 45px;
+    margin: 0px 113px ;
+}
+
+
+#notes{
+    margin: 0px;
+    display: flex;
+}
+
+#notes .note{
+    font-size: 15px;
+    color: white;
+    width: 170px;
+    padding: 7px 28px 0px 37px;
+    margin: 0px 110px ;
+}
+
+#notes .notee{
+    font-size: 15px;
+    color: white;
+    width: 170px;
+    padding: 7px 28px 0px 45px;
+    margin: 0px 110px ;
+}
+
+#strip{
+    border: 2px solid white;
+    border-radius: 21px;
+    font-size: 22px;
+    margin: 30px 264px 30px 152px;
+    padding: 20px 0px 20px 297px;
+    color: white;
+    /* align-items: center; */
+}
+
+#strip a{
+    color: rgb(215, 178, 250);
+}
+
+#contact{
+    margin: 50px 23px 40px 10px;
+    display: flex;
+    color: rgb(215, 178, 250);
+    font-size: 16px;
+    background-color: black;
+}
+
+.cont{
+    padding: 0px 119px;
+    margin: 0px 23px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #0e0e1a;
+}
+
+.footer {
+    display: flex;
+    padding: 4px 6px;
+    justify-content: space-evenly;
+}
+
+.footer>div {
+    width: 480px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0px;
+}
